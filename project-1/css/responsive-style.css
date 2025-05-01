@@ -10,5 +10,10 @@
         box-shadow: none;
         outline: none;
     }
+
+    .header nav form .menu-bar 
+    {
+        display: none;
+    }
 }
 /* navbar end */
