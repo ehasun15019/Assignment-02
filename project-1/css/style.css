@@ -14,12 +14,36 @@ body
 /* Navbar Start */
 .header  
 {
-    background: gray;
+    background: white;
     border-radius: 20px;
 }
 
 .header .navbar-brand img 
 {
     width: 50px;
+}
+
+#navbarSupportedContent ul li a 
+{
+    font-size: 0.9rem;
+}
+
+.header .input-sec input:focus 
+{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.header form .menu-bar 
+{
+    background: orange;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 /* Navbar End */

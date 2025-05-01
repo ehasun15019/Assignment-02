@@ -1,0 +1,14 @@
+/* navbar start */
+@media only screen and (max-width: 991px){
+    .header nav .navbar-toggler
+    {
+        border: none;
+    }
+
+    .header nav .navbar-toggler:focus 
+    {
+        box-shadow: none;
+        outline: none;
+    }
+}
+/* navbar end */
