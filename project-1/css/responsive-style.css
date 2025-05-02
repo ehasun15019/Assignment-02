@@ -32,3 +32,45 @@
     }
 }
 /* Hero sec end */
+
+
+/* categories start */
+@media only screen and (max-width: 1000px){
+    .categories-sec .card-sec 
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 767px){ 
+    .categories-sec .card-sec 
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px){ 
+    .categories-sec .card-sec 
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* categories end */
+
+
+
+/* stories start */
+@media only screen and (max-width: 1000px){ 
+    .stories .card .card-body 
+    {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px){ 
+    .stories img 
+    {
+        margin-top: 20px;
+    }
+}
+/* stories end */

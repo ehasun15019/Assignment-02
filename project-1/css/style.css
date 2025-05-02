@@ -9,6 +9,7 @@
 body 
 {
     font-family: "Nunito", sans-serif;
+    background-color: #f9f9f9;
 }
 
 /* Navbar Start */
@@ -56,3 +57,47 @@ body
     background-color: #6E40FF;
 }
 /* Hero sec End */
+
+
+/* categories start */
+.categories-sec .card-sec 
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.categories-sec .card 
+{
+    position: relative;
+}
+
+.categories-sec .overlay-sec {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 16px;
+    background: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(20px);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.categories-sec .overlay-sec p 
+{
+    position: relative;
+    top: 10px;
+}
+/* categories End */
+
+
+
+/* stories start */
+.stories .card .card-body 
+{
+    padding-bottom: 111px;
+}
+/* stories End */
