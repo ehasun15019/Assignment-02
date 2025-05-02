@@ -17,3 +17,18 @@
     }
 }
 /* navbar end */
+
+
+/* Hero sec start */
+@media only screen and (max-width: 330px){
+    .hero-sec .button-sec span 
+    {
+        display: none;
+    }
+    
+    .hero-sec .technology-sec .btn-sec span 
+    {
+        display: none;
+    }
+}
+/* Hero sec end */
