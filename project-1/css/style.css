@@ -98,6 +98,20 @@ body
 /* stories start */
 .stories .card .card-body 
 {
-    padding-bottom: 111px;
+    padding-bottom: 80px;
 }
 /* stories End */
+
+
+/* news start */
+.news 
+{
+    background-color: #F28C5B;
+    padding: 40px 0;
+}
+
+.news .third-column .card-text
+{
+    font-size: 0.9rem;
+}
+/* news End */
